@@ -16,10 +16,7 @@ Guia prático e direto ao ponto para diagnosticar qualquer processo organizacion
 
 Abra a aplicação no seu navegador:
 
-* **Para iniciar um diagnóstico novo do zero:**
-  Acesse a página inicial e clique em **"Iniciar Diagnóstico"**.
-* **Para fazer uma demonstração rápida (com dados reais pré-preenchidos):**
-  Acesse com a tag `#demo` no final do endereço (ex: `http://localhost:5173/#demo`).
+* Acesse a página inicial e clique em **"Iniciar Diagnóstico"** para iniciar o preenchimento com os dados do seu setor ou rotina.
 
 ---
 
@@ -27,7 +24,7 @@ Abra a aplicação no seu navegador:
 
 Preencha os **5 campos obrigatórios** sobre o processo que deseja avaliar:
 
-1. **Nome do Processo:** *(ex: Agendamento e Autorização de Consultas)*
+1. **Nome do Processo:** *(ex: Admissão e Autorização de Consultas)*
 2. **Área Responsável:** *(ex: Central de Atendimento / Recepção)*
 3. **Objetivo Principal:** *(o resultado que o processo deve entregar)*
 4. **Como Funciona Hoje:** *(descrição livre das principais etapas)*
@@ -85,9 +82,3 @@ A IA irá automaticamente:
 2. Apresentar um diagnóstico executivo sintético.
 3. Montar a tabela detalhada do **Plano de Ação** dividida em Curto Prazo *(Quick Wins)*, Médio Prazo e Longo Prazo.
 4. **Gerar e disponibilizar o arquivo PDF pronto para você baixar** (com 2 a 3 páginas e foco no plano de ação).
-
----
-
-## 🔒 Privacidade e Segurança
-* **100% no seu navegador:** Nenhum dado é salvo na nuvem nem transmitido para servidores externos.
-* **Sem login ou senha:** Totalmente anônimo e confidencial.

@@ -1,5 +1,5 @@
 import React from 'react';
-import { ShieldCheck, Heart } from 'lucide-react';
+import { Heart } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -19,14 +19,8 @@ export const Footer: React.FC = () => {
               Cuidado com o processo & as pessoas <Heart className="w-3 h-3 text-adventist-earthRed ml-1 inline" />
             </span>
           </div>
-
-          <div className="flex items-center space-x-1.5 text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-md border border-emerald-100">
-            <ShieldCheck className="w-3.5 h-3.5" />
-            <span>Processamento local • Sem telemetria</span>
-          </div>
         </div>
       </div>
     </footer>
   );
 };
-

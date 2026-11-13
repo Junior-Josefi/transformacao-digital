@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, ShieldCheck, Sparkles, RefreshCw } from 'lucide-react';
+import { ArrowRight, Sparkles, RefreshCw } from 'lucide-react';
 import { DIMENSIONS } from '../data/dimensionsData';
 
 interface IntroStepProps {
@@ -68,11 +68,6 @@ export const IntroStep: React.FC<IntroStepProps> = ({
             <span>Iniciar Diagnóstico</span>
             <ArrowRight className="w-4 h-4 text-adventist-cyan" />
           </button>
-        </div>
-
-        <div className="mt-4 flex items-center justify-center space-x-1.5 text-xs text-slate-500 font-subheading">
-          <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
-          <span>100% privado: Seus dados não saem deste computador.</span>
         </div>
       </div>
 

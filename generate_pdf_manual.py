@@ -17,7 +17,7 @@ html_content = f"""<!DOCTYPE html>
   <style>
     @page {{
       size: A4;
-      margin: 14mm 15mm 14mm 15mm;
+      margin: 15mm 16mm 15mm 16mm;
     }}
     * {{
       box-sizing: border-box;
@@ -27,7 +27,7 @@ html_content = f"""<!DOCTYPE html>
     body {{
       font-family: 'Open Sans', system-ui, -apple-system, sans-serif;
       color: #1E293B;
-      line-height: 1.45;
+      line-height: 1.5;
       font-size: 11pt;
       background: #FFFFFF;
       -webkit-print-color-adjust: exact !important;
@@ -49,7 +49,7 @@ html_content = f"""<!DOCTYPE html>
       justify-content: space-between;
       border-bottom: 2px solid #1A4A7A;
       padding-bottom: 12px;
-      margin-bottom: 16px;
+      margin-bottom: 18px;
     }}
     .header-logo {{
       height: 52px;
@@ -59,13 +59,13 @@ html_content = f"""<!DOCTYPE html>
       text-align: right;
     }}
     .header-titles h1 {{
-      font-size: 17pt;
+      font-size: 18pt;
       font-weight: 800;
       color: #1A4A7A;
       line-height: 1.15;
     }}
     .header-titles p {{
-      font-size: 9.5pt;
+      font-size: 10pt;
       color: #64748B;
       font-weight: 600;
       margin-top: 2px;
@@ -77,34 +77,19 @@ html_content = f"""<!DOCTYPE html>
       border: 1px solid #CBD5E1;
       border-left: 5px solid #00B5CC;
       border-radius: 8px;
-      padding: 12px 16px;
-      margin-bottom: 16px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      padding: 14px 18px;
+      margin-bottom: 18px;
     }}
-    .hero-text h2 {{
-      font-size: 12pt;
+    .hero-banner h2 {{
+      font-size: 13pt;
       font-weight: 700;
       color: #1A4A7A;
-      margin-bottom: 3px;
+      margin-bottom: 4px;
     }}
-    .hero-text p {{
-      font-size: 9pt;
+    .hero-banner p {{
+      font-size: 9.5pt;
       color: #334155;
-      line-height: 1.35;
-    }}
-    .badge-demo {{
-      background: #1A4A7A;
-      color: #FFFFFF;
-      font-family: 'Work Sans', sans-serif;
-      font-size: 8pt;
-      font-weight: 700;
-      padding: 4px 8px;
-      border-radius: 4px;
-      white-space: nowrap;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
+      line-height: 1.4;
     }}
 
     /* Workflow Pills */
@@ -158,7 +143,7 @@ html_content = f"""<!DOCTYPE html>
     .step-card {{
       border: 1px solid #E2E8F0;
       border-radius: 8px;
-      margin-bottom: 12px;
+      margin-bottom: 14px;
       background: #FFFFFF;
       overflow: hidden;
       page-break-inside: avoid;
@@ -166,7 +151,7 @@ html_content = f"""<!DOCTYPE html>
     .step-card-header {{
       background: #F8FAFC;
       border-bottom: 1px solid #E2E8F0;
-      padding: 8px 14px;
+      padding: 9px 14px;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -206,7 +191,7 @@ html_content = f"""<!DOCTYPE html>
       background: #F8FAFC;
       border: 1px solid #E2E8F0;
       border-radius: 6px;
-      padding: 8px 10px;
+      padding: 9px 12px;
     }}
     .sub-box strong {{
       color: #1A4A7A;
@@ -227,14 +212,14 @@ html_content = f"""<!DOCTYPE html>
       display: flex;
       align-items: flex-start;
       gap: 8px;
-      margin-bottom: 5px;
+      margin-bottom: 6px;
     }}
     .dim-tag {{
       background: #F0F5FA;
       color: #1A4A7A;
-      font-size: 7.5pt;
+      font-size: 8pt;
       font-weight: 700;
-      padding: 2px 6px;
+      padding: 2px 7px;
       border-radius: 3px;
       white-space: nowrap;
       border: 1px solid #DCE7F3;
@@ -245,9 +230,9 @@ html_content = f"""<!DOCTYPE html>
     .options-row {{
       display: flex;
       flex-wrap: wrap;
-      gap: 4px;
-      margin-top: 8px;
-      padding-top: 8px;
+      gap: 5px;
+      margin-top: 10px;
+      padding-top: 10px;
       border-top: 1px dashed #CBD5E1;
     }}
     .opt-pill {{
@@ -255,19 +240,9 @@ html_content = f"""<!DOCTYPE html>
       border: 1px solid #CBD5E1;
       border-radius: 4px;
       font-size: 7.5pt;
-      padding: 3px 6px;
+      padding: 3px 7px;
       color: #334155;
       font-weight: 600;
-    }}
-
-    /* Code block */
-    .code-pill {{
-      font-family: monospace;
-      background: #1E293B;
-      color: #00B5CC;
-      padding: 2px 6px;
-      border-radius: 4px;
-      font-size: 8pt;
     }}
 
     /* Callout */
@@ -276,11 +251,11 @@ html_content = f"""<!DOCTYPE html>
       border: 1px solid #A7F3D0;
       border-left: 4px solid #10B981;
       border-radius: 6px;
-      padding: 8px 12px;
-      margin-top: 8px;
+      padding: 10px 14px;
+      margin-top: 10px;
       font-size: 8.5pt;
       color: #065F46;
-      line-height: 1.35;
+      line-height: 1.4;
     }}
 
     .page-break {{
@@ -289,7 +264,7 @@ html_content = f"""<!DOCTYPE html>
 
     /* Footer */
     .footer {{
-      margin-top: 14px;
+      margin-top: 16px;
       padding-top: 8px;
       border-top: 1px solid #E2E8F0;
       display: flex;
@@ -312,13 +287,8 @@ html_content = f"""<!DOCTYPE html>
   </div>
 
   <div class="hero-banner">
-    <div class="hero-text">
-      <h2>Transforme processos em planos de ação práticos com IA</h2>
-      <p>Este guia orienta como utilizar a ferramenta para mapear gargalos, avaliar as 5 dimensões e gerar automaticamente um relatório executivo em PDF no ChatGPT ou Claude.</p>
-    </div>
-    <div class="badge-demo">
-      100% Local & Privado
-    </div>
+    <h2>Transforme processos em planos de ação práticos com IA</h2>
+    <p>Este guia orienta como utilizar a ferramenta para mapear gargalos, avaliar as 5 dimensões e gerar automaticamente um relatório executivo em PDF no ChatGPT ou Claude.</p>
   </div>
 
   <div class="flowchart">
@@ -355,15 +325,9 @@ html_content = f"""<!DOCTYPE html>
     </div>
     <div class="step-card-body">
       <p>Abra o link da aplicação no seu navegador (Google Chrome, Edge, Firefox ou Safari):</p>
-      <div class="grid-2">
-        <div class="sub-box">
-          <strong>Modo Normal (Novo Diagnóstico)</strong>
-          <p>Acesse a página inicial e clique em <strong>"Iniciar Diagnóstico"</strong> para preencher o formulário do zero com os dados do seu setor.</p>
-        </div>
-        <div class="sub-box" style="border-color: #00B5CC; background: #F0FBFD;">
-          <strong style="color: #008294;">Modo Demonstração (Com Hash Secreto)</strong>
-          <p>Adicione <span class="code-pill">#demo</span> na URL (ex: <code style="font-size: 7.5pt;">http://localhost:5173/#demo</code>) para carregar instantaneamente um caso real de saúde pré-preenchido para apresentações.</p>
-        </div>
+      <div class="sub-box" style="margin-top: 6px;">
+        <strong>Iniciar Diagnóstico</strong>
+        <p>Acesse a página inicial e clique no botão <strong>"Iniciar Diagnóstico"</strong> para iniciar o preenchimento com os dados do seu setor ou rotina.</p>
       </div>
     </div>
   </div>
@@ -504,17 +468,6 @@ html_content = f"""<!DOCTYPE html>
     </div>
   </div>
 
-  <!-- Destaques de Privacidade -->
-  <div style="background: #F8FAFC; border: 1px solid #E2E8F0; border-radius: 6px; padding: 10px 14px; font-size: 8.5pt; color: #475569; display: flex; justify-content: space-between; align-items: center;">
-    <div>
-      <strong style="color: #1A4A7A; display: block;">🔒 Privacidade e Proteção de Dados:</strong>
-      Nenhuma resposta ou dado de processo é salvo em nuvem. Toda a digitação ocorre 100% no seu navegador.
-    </div>
-    <div style="font-weight: 700; color: #059669; font-size: 8pt; text-align: right; white-space: nowrap; margin-left: 10px;">
-      ✓ Sem Servidor Externo<br>✓ Sem Cadastro ou Login
-    </div>
-  </div>
-
   <div class="footer">
     <span>Centro Médico Curitiba • Adventist Health Brasil</span>
     <span>Página 2 de 2</span>
@@ -541,14 +494,9 @@ cmd = [
     "manual_temp.html"
 ]
 
-print("Running command:", " ".join(cmd))
 res = subprocess.run(cmd, capture_output=True, text=True)
-print("Return code:", res.returncode)
-if res.stderr:
-    print("Stderr:", res.stderr)
-
 if os.path.exists(output_pdf):
-    print(f"Success! PDF generated: {output_pdf} ({os.path.getsize(output_pdf)} bytes)")
+    print(f"Success! PDF regenerated: {output_pdf} ({os.path.getsize(output_pdf)} bytes)")
     if os.path.exists('manual_temp.html'):
         os.remove('manual_temp.html')
 else:
